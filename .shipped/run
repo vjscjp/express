@@ -1,5 +1,4 @@
 #!/bin/bash
-
-${0%/*}/build
+cp -R /tmp/node_modules ./
 node index.js
 
